@@ -28,10 +28,14 @@ const AllComponents = () => {
           >
             <div className="modal-dialog">
               <div className="modal-content">
-                <div className="modal-header">
-                  <h5 className="modal-title" id="exampleModalLabel">
-                    Modal title
+                <div className="modal-header people">
+                    <div className="people">
+<h5 className="modal-title" id="exampleModalLabel">
+                  Кол-во людей
                   </h5>
+                  <input type="text" placeholder="10"/>
+                    </div>
+                  
                   <button
                     type="button"
                     className="btn-close"
@@ -40,16 +44,21 @@ const AllComponents = () => {
                   />
                 </div>
                 <div className="modal-body checkbox">
+                    <div className="filter">
+                       <input type="checkbox" />
+                    <p>Проектор</p> 
+                    </div>
+                    <div className="filter">
                   <input type="checkbox" />
-                  <p>Проектор</p>
-                  <input type="checkbox" />
-                  <div>
                   <p>Доска маркерная</p>
+                  </div>
+                  <div className="filter">
                   <input type="checkbox" />
+                   <p>Кондиционер</p>
                   </div>
                 
                 
-                  <p>Кондиционер</p>
+                 
                 </div>
                 <div className="modal-footer">
                   <button

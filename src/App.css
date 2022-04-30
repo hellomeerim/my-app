@@ -64,6 +64,12 @@ p{
     align-items: center;
 }
 
+.people input{
+    width: 50px!important;
+    margin-left: 20px;
+    text-align: center;
+}
+
 .checkbox input {
   width: 25px!important;
   display: flex;
@@ -72,4 +78,13 @@ p{
 .transparent{
   background-color: transparent!important;
   border: none!important;
+}
+
+.filter{
+  display: flex;
+  align-items:center;
+}
+
+.filter input{
+  margin-right: 15px;
 }
