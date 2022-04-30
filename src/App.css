@@ -49,6 +49,13 @@ p{
 .display{
   display: flex;
   flex-direction: row;
+  margin-top: 10px;
+  justify-content: space-around;
+}
+
+.display input{
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 /* filter */
@@ -57,3 +64,12 @@ p{
     align-items: center;
 }
 
+.checkbox input {
+  width: 25px!important;
+  display: flex;
+}
+
+.transparent{
+  background-color: transparent!important;
+  border: none!important;
+}
