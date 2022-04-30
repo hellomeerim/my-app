@@ -1,3 +1,61 @@
 .flexbox{
     display: flex;
 }
+
+.navigation{
+    display: flex;
+    justify-content: center;
+}
+
+.navigation h1{
+    font-size: 30px;
+}
+.header{
+    display: flex;
+    align-items:center;
+    justify-content: center; 
+}
+
+.header  li {
+    list-style: none;
+    display: inline-block;
+}
+
+.header ul  {
+    margin: 0;
+    display: flex;
+}
+
+/* content */
+
+.content{
+    background: white!important;
+}
+
+.shedule{
+    display: flex;
+    align-items:center;
+}
+
+.shedule p{
+color: #FF9D9E;
+font-size: 16px;
+}
+
+.shedule h4{
+    font-weight: 400;
+    font-size: 18px;
+    }
+
+.check{
+    display: flex;
+}
+
+/* modal */
+
+.order{
+    width: 435px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.05);;
+}
