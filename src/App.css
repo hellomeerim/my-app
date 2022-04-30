@@ -50,3 +50,10 @@ p{
   display: flex;
   flex-direction: row;
 }
+
+/* filter */
+.people{
+    display: flex;
+    align-items: center;
+}
+

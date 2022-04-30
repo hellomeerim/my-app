@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState }  from "react";
 import SideBar from "../SideBar/SideBar";
 import styles from "../Content/Content.module.css";
 import search from "../../Media/Group.svg";
@@ -6,11 +6,26 @@ import check from "../..//Media/check-circle.svg";
 import bootstrap from "bootstrap";
 
 const Content = () => {
+    const [data, setData] = useState([]);
+
+    const getData = () => {
+        const url = "";
+    
+        fetch(url)
+          .then((response) => response.json())
+          .then((data) => setData(data));
+      };
+    
+      useEffect(() => {
+        getData();
+      }, []);
+
   return (
     <>
       <div className={styles.navigation}>
         <h1>Список конференц залов</h1>
         <img src={search} />
+        
       </div>
 
       <div className={styles.flexbox}>
@@ -94,6 +109,10 @@ const Content = () => {
           </div>
           <h2>Описание</h2>
           <h3>Зарезервированное время</h3>
+          {/* {data.map((item) => {
+            return (
+                
+            ) */}
           <div className={styles.shedule}>
             <p>29 апр 16:00-18:00</p>
             <h4>Отдел разработок</h4>
@@ -116,8 +135,8 @@ const Content = () => {
             <img className={styles.img} src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" alt="" />
             <img className={styles.img} src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" alt="" />
           </div>
-        </div>
-      </div>
+              </div>
+              </div>
     </>
   );
 };
