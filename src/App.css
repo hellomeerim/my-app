@@ -1,7 +1,10 @@
+
 .btn-primary {
   background-color: #20BF6B;
   border-color: #20BF6B;
 }
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
 
 .right{
   position: relative;
