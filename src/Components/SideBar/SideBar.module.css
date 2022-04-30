@@ -1,0 +1,40 @@
+.sidebar{
+    height: 106px;
+    width: 367px;
+    border-radius: 0;
+
+    left: 35px;
+    top: 29px;
+
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+.sidebar:hover{
+
+    background: #FAFAFA;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+}
+/*.atc{*/
+/*    margin: 29px 142px 8px 35px;*/
+/*}*/
+.atc1{
+    margin: 29px 142px 8px 35px;
+    font-family: Inter;
+    font-weight: 600;
+}
+.atc2{
+    font-family: Inter;
+    font-weight: 400;
+    width: 169px;
+    height: 22px;
+    left: 35px;
+    top: 66px;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin: 0 164px 18px 35px;
+}
