@@ -4,11 +4,12 @@
 
 .navigation{
     display: flex;
-    justify-content: center;
+    
 }
 
 .navigation h1{
     font-size: 30px;
+    margin-right: 719px;
 }
 .header{
     display: flex;
@@ -30,6 +31,8 @@
 
 .content{
     background: white!important;
+    width: 771px;
+    padding: 65px;
 }
 
 .shedule{
@@ -49,13 +52,36 @@ font-size: 16px;
 
 .check{
     display: flex;
+    align-items:center;
 }
 
-/* modal */
+.check h4{
+    margin-left: 18px;
+}
 
-.order{
-    width: 435px;
-    border: none;
-    border-radius: 10px;
-    box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.05);;
+.content h2{
+    font-size: 24px;
+}
+
+.content h3{
+    font-size: 18px;
+}
+
+.content h4{
+    font-size: 18px;
+    color: #19211C;
+}
+
+/* img */
+.img{
+    max-width:  165px;
+    min-width:  165px;
+    max-height: 94px;;
+    min-height: 94px;;
+    padding-right: 10px;
+    margin-top: 20px;
+}
+
+.imgDisplay{
+    display: flex;
 }
